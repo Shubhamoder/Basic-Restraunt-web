@@ -1,3 +1,6 @@
+/*This m.css file can be linked with the main.html file if someone wants to write the styling part in another file otherwise the 
+main.html has its css written in the file itself.
+*/
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
