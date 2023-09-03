@@ -1,174 +1,161 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<style>
+    *{
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     
-    <title>Document</title>
-    <style>
-        body{
-            background-image: linear-gradient(rgb(0,0,0,0.1),transparent),url(maxresdefault.jpg);
-        background-repeat: no-repeat;
+    }
+    body{
+        background-color: #d2d2d2;
+    }
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#one{
+    background-color: white;
+        height:max-content;
+        width: 25%;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    #one p{
+        font-size: 24px;
+        text-align: center;
+    }
+    #one h1{
+        text-align: center;
+    }
+    #one img{
+height: 200px;
+width:80%;
+border-radius: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+    }
+    .m_header{
+        text-align: center;
+    }
+    .order{
+        margin-top: 25px;
         display: block;
         margin-left: auto;
+        margin-right: auto;
+        
+        padding: 20px;
+        width: fit-content;
+        border: 1px solid;
+    border-radius: 5px;    
+    }
+        .order_a{
+            text-decoration: none;
+            font-size: 24px;
+            
         }
-        *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+</style>
+    <body>
+        <h1 class="m_header">Menu</h1>
+        <div class="menu">
+            
+            <div id="one">
+                <img src="images_menu/kabir-cheema-8T9AVksyt7s-unsplash.jpg" alt="Photo by kabir cheema on Unsplash ">
+                <h1>Samosa</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce. </p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Panner Tikka.jpg" alt="Photo by Kalyani Akella on Unsplash">
 
-}
-h1{
-    color: #000;
-    text-align: center;
+                <h1>Paneer Tikka</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Aloo Tikki.jpg" alt="Photo by Arbendra Pratap on Unsplash">
+                
+                
+                <h1>Aloo Tikki</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Mixed Vegetable Salad.jpg" alt="Photo by Farhad Ibrahimzade on Unsplash">
 
-}
-.xtra{
-    display: block;
-    width:70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    height:400px;
-   
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50px;
-}
+                
+                <h1>Mixed Vegetable Salad</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/PaneerButter.jpg" alt="Photo by Pixelsnap Visualz Photography on Unsplash">
+                <h1>Paneer Butter Masala</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Daal Makhani.jpg" alt="Photo by Gayatri Malhotra on Unsplash">
 
-.xtrah{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding:50px;
-    color: #fff;
-    padding:4px;
-    background-color: rgb(0, 255, 60);
-    border-radius: 5px;
-    font-weight: bolder;
-    width: fit-content;
-}
-a{
-    margin-top: 500px;
-    background-color: aliceblue;
-    text-decoration: none;
-}
+                
+                
 
-.header{
-    background:blue;
-
-    height:60px;
-    
-    margin: 4px 5px 20px 60px;
-    border-radius: 10px;
-    display: center;
-}
-.container{
- min-width:100%;
- display: block;
- margin-left: auto;
- margin-right: auto;   
-}
-.right-sidebar{
-    
-    display: flex;
-    width:90%;
-    margin-left: 15px;
-    margin-right: 65px;
-    padding: 4px;
-    border-radius:50px;
-    background-color: rgb(226, 43, 113);
-}
-.left-sidebar{
-    display: block;
-    width:70%;
-    background-image: linear-gradient(rgb(238,138,238),transparent);
-    border-radius: 50px;
-    margin-right: 5px;
-    padding:15px;
-
-}
-.left-sidebar li{
-    list-style: none;
-    margin-bottom: 15px;
-    align-items: center;
-    color: rgb(0,0,225);
-}
-
-.left-sidebar a{
-    text-decoration: none;
-    align-items: flex-end;
-}
-
-.main-sidebar{
-    
-
-display: block;
-
-width:15%;
-
-background-image: linear-gradient(transparent,rgb(0,225,225));
-border-radius: 15px;
-padding: 15px;
-}
-.main-sidebar li{
-    list-style: none;
-    margin-bottom: 15px;
-    color:#000;
-}
-@media only screen and (min-width:1000px){
-.right-sidebar{
-    width:30%;
-}
-body{
-    background-repeat: repeat-x;
-}
-    
-}
-
-  
-    </style>
-</head>
-<body>
-<div class="header">
-    <h1>Restraunt Menu</h1>
-</div>
+                <h1>Daal Makhani</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Malai Kofta.jpg" alt="Photo by Azmaan Baluch on Unsplash">
+                
+                
 
 
+                <h1>Malai Kofta</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Gulab Jamun.jpg" alt="Photo by Jyoti Singh on Unsplash">
 
-<a href="order.html" ><h2 class="xtrah">Place Order</h2></a>
-    
+                
+                <h1>Gulab Jamun</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Gaajar Ka Halwa.jpg" alt="Photo by Nisha Ramesh on Unsplash">
 
-<div class="container">
-   
-     <div class="right-sidebar">
-    <div class="left-sidebar">
-        
-    <li><h2> Tea </h2></li>
-    <li><h2>Kullad Tea</h2></li>
-    <li><h2>Cofee</h2></li>   
-     <li><h2>Kullad Cofee</h2></li>
-     <li><h2>Plain Maggi</h2></li>   
-     <li><h2>Veg. Maggi</h2></li>   
-     <li><h2>Pakoda's</h2></li>
+                        
+                <h1>Gaajar Ka Halwa</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Mango Lassi.jpg" alt="Photo by Jyoti Singh on Unsplash">
 
-        
-    </div>
+                    
+                <h1>Mango Lassi</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Masala Chai.jpg" alt="Photo by Harsh Pandey on Unsplash">
 
-    <div class="main-sidebar">
-        <li><h2>Rs.20</h2></li> 
-        <li><h2>Rs.25</h2></li>
-        <li><h2>Rs.35</h2></li>
-        <li><h2>Rs.40</h2></li>
-        <li><h2>Rs.40</h2></li>
-        <li><h2>Rs.50</h2></li>
-        <li><h2>Rs.80</h2></li>
-    </div>
-</div>
-    
-  
-</div>   
-<script>
+                
+                <h1>Masala Chai</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+            <div id="one">
+                <img src="images_menu/Ice Cream.jpg" alt="Photo by Anna Bratiychuk on Unsplash">
 
-</script> 
-</body>
+                
+                <h1>Ice Cream</h1>
+                <p>Lightly breaded calamari rings served with marinara sauce</p>
+            </div>
+           
+            
+        </div>
+        <div class="order">
+            <a class="order_a" href="order.html">Order Food</a>
+        </div>
+    </body>
+
 </html>
